@@ -10,10 +10,13 @@
 
 <body>
     <div>
+        <div id="app">
+            <h1>Hello World</h1>
+            <example-component></example-component>
+        </div>
         <!-- <div id="app">
             <app></app>
         </div> -->
-        <h1>Hello World</h1>
     </div>
 </body>
 <script src="{{ mix('js/app.js') }}"></script>
