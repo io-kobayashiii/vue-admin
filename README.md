@@ -8,4 +8,5 @@
 6. php artisan key:generate
 7. exit
 8. cd server
-9. npm install
+9. yarn install
+10. yarn watch
