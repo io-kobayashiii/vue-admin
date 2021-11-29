@@ -1,8 +1,16 @@
-// Fonts
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-@import 'variables';
+.test-class {
+    font-size: 10px;
+}
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+.test-class-2 {
+    font-size: 12px;
+}
+
+.test-class-3 {
+    font-size: 14px;
+}
