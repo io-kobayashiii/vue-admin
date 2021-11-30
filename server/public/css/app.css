@@ -676,18 +676,6 @@ video {
 	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.test-class {
-  font-size: 10px;
-}
-
-.test-class-2 {
-  font-size: 12px;
-}
-
-.test-class-3 {
-  font-size: 14px;
-}
-
 @media (min-width: 560px){
 	.sm\:ml-0{
 		margin-left: 0px;
@@ -721,7 +709,6 @@ video {
 		text-align: right;
 	}
 }
-
 @media (min-width: 768px){
 	.md\:grid-cols-2{
 		grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -733,7 +720,6 @@ video {
 		border-left-width: 1px;
 	}
 }
-
 @media (min-width: 1000px){
 	.lg\:px-8{
 		padding-left: 8px;
