@@ -5,7 +5,17 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				anyColorName: 'ff0000'
+			    customTheme: {
+                    blue: '#1e90ff',
+                    lightBlue: '#87cefa',
+                    red: '#ff0000',
+                    orange: '#ffa500',
+                    pink: '#ff69b4',
+                    lightPink: '#ffc0cb',
+                    yellow: '#ffd700',
+                    green: '#32cd32',
+                    violet: '#8a2be2',
+                }
 			},
 			scale: {
 				flip: '-1'

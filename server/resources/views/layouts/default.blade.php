@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="@yield('bodyClasses')">
+<body class="@yield('bodyClasses') relative h-100p">
     <div id="app">
         @yield('pageContents')
     </div>

@@ -3,4 +3,5 @@
 @section('bodyClasses', 'page-top')
 @section('pageContents')
     <example-component />
+    <va-badge displayText="test" />
 @endsection

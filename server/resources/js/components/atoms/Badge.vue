@@ -1,11 +1,10 @@
 <template>
-    <div>
-        <p>This is an example-component.</p>
-    </div>
+    <span>{{ displayText }}</span>
 </template>
 
 <script>
     export default {
+        props: ['displayText'],
         mounted() {
             console.log(`mounted ::: ${this.$options._componentTag}`)
         }
