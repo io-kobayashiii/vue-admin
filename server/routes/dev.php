@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'Test\IndexController@index')->name('index');
+Route::get('/', 'IndexController@index')->name('index');
