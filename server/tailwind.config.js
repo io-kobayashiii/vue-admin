@@ -5,11 +5,11 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				anyColorName: 'ff0000'
+				anyColorName: 'ff0000',
 			},
 			scale: {
-				flip: '-1'
-			}
+				flip: '-1',
+			},
 		},
 		screens: {
 			xs: '375px',
@@ -17,8 +17,8 @@ module.exports = {
 			md: '768px',
 			lg: '1000px',
 			xl: '1280px',
-			'400': '400px',
-			'1120': '1120px',
+			400: '400px',
+			1120: '1120px',
 		},
 		maxWidth: {
 			...[...Array(1201)].reduce((m, _, i) => {
@@ -33,14 +33,14 @@ module.exports = {
 			sm: '560px',
 			md: '768px',
 			lg: '1000px',
-			none: 'none'
+			none: 'none',
 		},
 		borderRadius: {
 			...[...Array(32)].reduce((m, _, i) => {
 				m[i] = `${i}px`
 				return m
 			}, {}),
-			'100vh': '100vh'
+			'100vh': '100vh',
 		},
 		fontSize: {
 			...[...Array(101)].reduce((m, _, i) => {
@@ -50,7 +50,7 @@ module.exports = {
 			...[...Array(101)].reduce((m, _, i) => {
 				m[`${i}vw`] = `${i}vw`
 				return m
-			}, {})
+			}, {}),
 		},
 		padding: {
 			...[...Array(301)].reduce((m, _, i) => {
@@ -60,7 +60,7 @@ module.exports = {
 			...[...Array(5)].reduce((m, _, i) => {
 				m[`${i}em`] = `${i}em`
 				return m
-			}, {})
+			}, {}),
 		},
 		margin: {
 			...[...Array(201)].reduce((m, _, i) => {
@@ -71,7 +71,7 @@ module.exports = {
 				m[`minus-${i}`] = `-${i}px`
 				return m
 			}, {}),
-			auto: 'auto'
+			auto: 'auto',
 		},
 		width: {
 			...[...Array(1001)].reduce((m, _, i) => {
@@ -81,7 +81,7 @@ module.exports = {
 			...[...Array(101)].reduce((m, _, i) => {
 				m[`${i}p`] = `${i}%`
 				return m
-			}, {})
+			}, {}),
 		},
 		height: {
 			...[...Array(1001)].reduce((m, _, i) => {
@@ -91,13 +91,13 @@ module.exports = {
 			...[...Array(101)].reduce((m, _, i) => {
 				m[`${i}p`] = `${i}%`
 				return m
-			}, {})
+			}, {}),
 		},
 		lineHeight: {
 			...[...Array(101)].reduce((m, _, i) => {
 				m[i] = `${i}px`
 				return m
-			}, {})
+			}, {}),
 		},
 		zIndex: {
 			...[...Array(101)].reduce((m, _, i) => {
@@ -105,7 +105,7 @@ module.exports = {
 				return m
 			}, {}),
 			'minus-1': '-1',
-			auto: 'auto'
+			auto: 'auto',
 		},
 		translate: {
 			...[...Array(1001)].reduce((m, _, i) => {
@@ -123,7 +123,7 @@ module.exports = {
 			...[...Array(101)].reduce((m, _, i) => {
 				m[`minus-${i}p`] = `-${i}%`
 				return m
-			}, {})
+			}, {}),
 		},
 		inset: {
 			...[...Array(1001)].reduce((m, _, i) => {
@@ -142,11 +142,11 @@ module.exports = {
 				m[`minus-${i}p`] = `-${i}%`
 				return m
 			}, {}),
-			auto: 'auto'
-		}
+			auto: 'auto',
+		},
 	},
 	variants: {
-		extend: {}
+		extend: {},
 	},
-	plugins: []
+	plugins: [],
 }

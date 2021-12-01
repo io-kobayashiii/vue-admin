@@ -44,12 +44,12 @@
 import { createApp } from 'vue'
 import ExampleComponent from './components/ExampleComponent.vue'
 import HeaderExample from './components/HeaderExample.vue'
-import Welcome from "./components/Welcome.vue";
+import Welcome from './components/Welcome.vue'
 
 const app = createApp({
-    components: {
-        ExampleComponent,
-        HeaderExample,
-        Welcome
-    },
-}).mount("#app");
+	components: {
+		ExampleComponent,
+		HeaderExample,
+		Welcome,
+	},
+}).mount('#app')
