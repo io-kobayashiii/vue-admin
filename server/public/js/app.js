@@ -17118,7 +17118,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
-  name: "counter",
+  name: 'counter',
   setup: function setup() {
     var count = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(0);
 
@@ -17159,7 +17159,7 @@ __webpack_require__.r(__webpack_exports__);
     Counter: _Counter_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   setup: function setup() {
-    var name = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)("Bijaya");
+    var name = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)('Bijaya');
     return {
       name: name
     };
@@ -17284,7 +17284,7 @@ var app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)({
     HeaderExample: _components_HeaderExample_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     Welcome: _components_Welcome_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
   }
-}).mount("#app");
+}).mount('#app');
 
 /***/ }),
 
@@ -17300,7 +17300,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
-    console.log("Component mounted.");
+    console.log('Component mounted.');
   }
 });
 
