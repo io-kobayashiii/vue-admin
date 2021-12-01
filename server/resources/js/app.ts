@@ -4,11 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-import { createApp } from 'vue'
+// require('./bootstrap');
 
-require('./bootstrap');
-
-window.Vue = require('vue').default;
+// window.Vue = require('vue').default;
 
 /**
  * The following block of code may be used to automatically register your
@@ -34,11 +32,24 @@ window.Vue = require('vue').default;
 //     el: '#app',
 // });
 
-createApp({
+// createApp({
 
-    // ここに各種設定
+//     // ここに各種設定
 
-})
-    .component('example-component', require('./components/ExampleComponent.vue').default)
-    .component('header-example', require('./components/HeaderExample.vue').default)
-    .mount('#app');
+// })
+//     .component('example-component', require('./components/ExampleComponent.vue').default)
+//     .component('header-example', require('./components/HeaderExample.vue').default)
+//     .mount('#app');
+
+import { createApp } from 'vue'
+import ExampleComponent from './components/ExampleComponent.vue'
+import HeaderExample from './components/HeaderExample.vue'
+import Welcome from "./components/Welcome.vue";
+
+const app = createApp({
+    components: {
+        ExampleComponent,
+        HeaderExample,
+        Welcome
+    },
+}).mount("#app");

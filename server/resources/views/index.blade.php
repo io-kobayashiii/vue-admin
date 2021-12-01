@@ -14,6 +14,7 @@
             <h1>Hello World</h1>
             <example-component></example-component>
             <header-example></header-example>
+            <welcome></welcome>
         </div>
     </div>
 </body>
